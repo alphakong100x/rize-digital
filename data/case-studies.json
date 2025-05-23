@@ -1,0 +1,189 @@
+{
+  "case_studies": [
+    {
+      "id": 1,
+      "client_name": "King Land Clearing",
+      "slug": "king-land-clearing",
+      "industry": "Land Clearing",
+      "region": "Multi-state",
+      "headline": "300% Lead Growth in New States",
+      "summary": "Rapid lead flow growth in new states with PPC jump-start and regional multi-site SEO strategy.",
+      "challenge": "King Land Clearing needed to rapidly generate leads in new states they were expanding into, but had no existing market presence or brand recognition in these areas.",
+      "solution": "We implemented our 'Jump-Start & Redeploy' strategy, using aggressive Google Ads to gain immediate traction while simultaneously building a regional multi-site SEO framework.",
+      "results": [
+        {
+          "stat": "300%",
+          "label": "Lead Growth"
+        },
+        {
+          "stat": "$34",
+          "label": "New CPL (from $85)"
+        },
+        {
+          "stat": "6",
+          "label": "New States Dominated"
+        }
+      ],
+      "testimonial": "The transparency is what sets Rize Digital apart. We can see exactly how our marketing dollars are performing and they're always making data-driven adjustments to improve results. Our CPL has decreased by 60% while lead volume continues to grow.",
+      "testimonial_name": "John King",
+      "testimonial_title": "Owner",
+      "featured": true,
+      "service_category": ["Google Ads Management", "Search Engine Optimization"]
+    },
+    {
+      "id": 2,
+      "client_name": "Bomann Fencing",
+      "slug": "bomann-fencing",
+      "industry": "Agricultural Fencing",
+      "region": "Georgia",
+      "headline": "4× Conversion Rate, Regained Client Confidence",
+      "summary": "Google Business Profile optimization plan + new PPC copy completely transformed results.",
+      "challenge": "Bomann Fencing was disappointed with their previous marketing agency's performance. Their Google Ads were generating clicks but few leads, and organic visibility was minimal.",
+      "solution": "We implemented a comprehensive Google Business Profile optimization plan, rewrote their Google Ads copy for better qualification, and restructured their campaign targeting.",
+      "results": [
+        {
+          "stat": "4x",
+          "label": "Conversion Rate"
+        },
+        {
+          "stat": "122%",
+          "label": "More Map Pack Clicks"
+        },
+        {
+          "stat": "28",
+          "label": "New 5-Star Reviews"
+        }
+      ],
+      "testimonial": "We were skeptical about marketing agencies after several bad experiences, but Rize Digital has been different from day one. Their AI automations have reduced our response time to inquiries and their SEO work has us ranking #1 across our service area.",
+      "testimonial_name": "Mike Bomann",
+      "testimonial_title": "Owner",
+      "featured": true,
+      "service_category": ["Search Engine Optimization", "Google Ads Management"]
+    },
+    {
+      "id": 3,
+      "client_name": "Executive Dumpsters",
+      "slug": "executive-dumpsters",
+      "industry": "Dumpster Rental",
+      "region": "North Carolina",
+      "headline": "#1 in 7 Counties; 41% Lower CPC",
+      "summary": "High-CPC ads → optimized RSA copy, SEO content hubs for regional dominance.",
+      "challenge": "Executive Dumpsters wanted to dominate across Eastern NC, but was facing high cost-per-click in Google Ads and limited organic visibility beyond their home city.",
+      "solution": "We optimized their Responsive Search Ad copy to improve quality scores and created SEO content hubs targeting specific counties and service areas.",
+      "results": [
+        {
+          "stat": "#1",
+          "label": "Rank in 7 Counties"
+        },
+        {
+          "stat": "41%",
+          "label": "Lower CPC"
+        },
+        {
+          "stat": "189%",
+          "label": "Organic Traffic Increase"
+        }
+      ],
+      "testimonial": "The lead flow from our Google Ads campaign has been incredible. Rize Digital's team did a complete overhaul of our campaigns, and we're now getting more qualified leads at a 41% lower cost per lead. Their 'Jump-Start & Redeploy' strategy really works.",
+      "testimonial_name": "Sarah Thompson",
+      "testimonial_title": "Marketing Director",
+      "featured": true,
+      "service_category": ["Search Engine Optimization", "Google Ads Management", "Content Marketing"]
+    },
+    {
+      "id": 4,
+      "client_name": "Ward's Excavation",
+      "slug": "wards-excavation",
+      "industry": "Excavation",
+      "region": "Regional",
+      "headline": "62% YoY Organic Traffic Increase",
+      "summary": "Content rework & SEO refresh transformed outdated website content.",
+      "challenge": "Ward's Excavation had outdated website content that was targeting students rather than potential customers. Their site structure was poorly optimized for SEO.",
+      "solution": "We conducted a complete content rework focused on service-specific keywords and implemented a technical SEO refresh to improve site structure and performance.",
+      "results": [
+        {
+          "stat": "62%",
+          "label": "YoY Organic Traffic Increase"
+        },
+        {
+          "stat": "89",
+          "label": "New Keywords Ranking in Top 10"
+        },
+        {
+          "stat": "4.8",
+          "label": "Perfect Google Core Web Vitals Score"
+        }
+      ],
+      "testimonial": "What sets Rize Digital apart is their deep understanding of SEO for home service businesses. Their work has helped us outrank competitors who have been in business for decades. Their reporting dashboard shows exactly what's working and ROI is crystal clear.",
+      "testimonial_name": "William Evans",
+      "testimonial_title": "Owner",
+      "featured": false,
+      "service_category": ["Search Engine Optimization", "Content Marketing"]
+    },
+    {
+      "id": 5,
+      "client_name": "Ivan's Concrete Service",
+      "slug": "ivans-concrete-service",
+      "industry": "Concrete",
+      "region": "Multi-site",
+      "headline": "Ranked Top 3 in 12 Towns in Just 9 Months",
+      "summary": "Dynamic location pages + backlink outreach = multi-location market capture.",
+      "challenge": "Ivan's Concrete Service wanted to expand beyond their home city into 12 surrounding towns, but had no digital presence in those areas.",
+      "solution": "We created a dynamic location page structure optimized for each town, implemented a strategic backlink outreach program, and enhanced their local business listings.",
+      "results": [
+        {
+          "stat": "Top 3",
+          "label": "Rankings in All 12 Towns"
+        },
+        {
+          "stat": "212%",
+          "label": "Organic Traffic Increase"
+        },
+        {
+          "stat": "47%",
+          "label": "of Leads from Organic Search"
+        }
+      ],
+      "testimonial": "Rize Digital transformed our marketing approach. We're now the dominant concrete contractor in our region with leads coming in consistently. The exclusive partnership gives us confidence they're working solely for our success.",
+      "testimonial_name": "Ivan Contreras",
+      "testimonial_title": "Owner",
+      "featured": false,
+      "service_category": ["Search Engine Optimization", "Website Development"]
+    },
+    {
+      "id": 6,
+      "client_name": "731 Disposal",
+      "slug": "731-disposal",
+      "industry": "Dumpster Rental",
+      "region": "Tennessee",
+      "headline": "ROAS 6.1 Within First 45 Days",
+      "summary": "Smart bidding + negative keyword strategy made paid ads profitable.",
+      "challenge": "731 Disposal was struggling to make their paid advertising profitable. Their Google Ads were generating clicks but few conversions, and their cost per lead was unsustainable.",
+      "solution": "We implemented a smart bidding strategy with a focus on high-intent keywords. We also developed a comprehensive negative keyword list to eliminate wasted ad spend.",
+      "results": [
+        {
+          "stat": "6.1",
+          "label": "ROAS Within 45 Days"
+        },
+        {
+          "stat": "320%",
+          "label": "Increase in Conversion Rate"
+        },
+        {
+          "stat": "42%",
+          "label": "Decrease in Cost Per Lead"
+        }
+      ],
+      "testimonial": "I've worked with multiple marketing agencies over the years, and Rize Digital's work on our website has been the most impressive. Not only does it look great, but it actually converts visitors into leads. Our conversion rate increased by 320% since the new site launched.",
+      "testimonial_name": "David Wilson",
+      "testimonial_title": "Owner",
+      "featured": false,
+      "service_category": ["Google Ads Management", "Website Development"]
+    }
+  ]
+}
+
+
+
+
+

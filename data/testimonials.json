@@ -1,0 +1,72 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "Rize Digital transformed our marketing approach. We're now the dominant concrete contractor in our region with leads coming in consistently. The exclusive partnership gives us confidence they're working solely for our success.",
+      "client_name": "Ivan Contreras",
+      "client_title": "Owner",
+      "client_company": "Ivan's Concrete Service",
+      "industry": "Concrete",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "quote": "The transparency is what sets Rize Digital apart. We can see exactly how our marketing dollars are performing and they're always making data-driven adjustments to improve results. Our CPL has decreased by 60% while lead volume continues to grow.",
+      "client_name": "John King",
+      "client_title": "Owner",
+      "client_company": "King Land Clearing",
+      "industry": "Land Clearing",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "quote": "We were skeptical about marketing agencies after several bad experiences, but Rize Digital has been different from day one. Their AI automations have reduced our response time to inquiries and their SEO work has us ranking #1 across our service area.",
+      "client_name": "Mike Bomann",
+      "client_title": "Owner",
+      "client_company": "Bomann Fencing",
+      "industry": "Fencing",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "quote": "After struggling with visibility for years, Rize Digital's SEO strategy changed everything. We now rank #1 for all our major service keywords in our area. Our phone is ringing off the hook with new customers who find us through Google.",
+      "client_name": "John King",
+      "client_title": "Owner",
+      "client_company": "King Land Clearing",
+      "industry": "Land Clearing",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "quote": "What sets Rize Digital apart is their deep understanding of SEO for home service businesses. Their work has helped us outrank competitors who have been in business for decades. Their reporting dashboard shows exactly what's working and ROI is crystal clear.",
+      "client_name": "William Evans",
+      "client_title": "Owner",
+      "client_company": "Ward's Excavation",
+      "industry": "Excavation",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "quote": "The lead flow from our Google Ads campaign has been incredible. Rize Digital's team did a complete overhaul of our campaigns, and we're now getting more qualified leads at a 41% lower cost per lead. Their 'Jump-Start & Redeploy' strategy really works.",
+      "client_name": "Sarah Thompson",
+      "client_title": "Marketing Director",
+      "client_company": "Executive Dumpsters",
+      "industry": "Dumpster Rental",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "quote": "I've worked with multiple marketing agencies over the years, and Rize Digital's work on our website has been the most impressive. Not only does it look great, but it actually converts visitors into leads. Our conversion rate increased by 320% since the new site launched.",
+      "client_name": "David Wilson",
+      "client_title": "Owner",
+      "client_company": "731 Disposal",
+      "industry": "Dumpster Rental",
+      "featured": false
+    }
+  ]
+}
+
+
+
+
+

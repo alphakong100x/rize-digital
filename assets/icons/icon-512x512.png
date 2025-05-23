@@ -1,0 +1,4 @@
+This is a placeholder for assets/icons/icon-512x512.png.
+Please replace this file with a real .png image file of 512x512 pixels.
+This icon is referenced in the manifest.json for PWA (Progressive Web App) capabilities,
+used for splash screens and larger format icons on various platforms.

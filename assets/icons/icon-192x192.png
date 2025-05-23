@@ -1,0 +1,4 @@
+This is a placeholder for assets/icons/icon-192x192.png.
+Please replace this file with a real .png image file of 192x192 pixels.
+This icon is referenced in the manifest.json for PWA (Progressive Web App) capabilities,
+primarily for Android home screen icons.

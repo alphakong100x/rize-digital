@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Automations for Home Services | Rize Digital</title>
+    <meta name="description" content="Streamline operations, improve response times, and enhance customer experience for your home service business with Rize Digital's AI & GHL automation solutions.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#003366', 
+                        'primary-dark': '#002244',
+                        secondary: '#4A90E2', 
+                        accent: '#4CAF50', 
+                        'accent-dark': '#388E3C', 
+                        light: '#F5F5F5', 
+                        dark: '#333333',
+                        'dark-text': '#333333'
+                    },
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'], 
+                        'open-sans': ['"Open Sans"', 'sans-serif'] 
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "AI-Powered Automations for Home Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rize Digital",
+        "url": "https://www.rizedigital.com"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "description": "Rize Digital implements AI-powered automations and GoHighLevel (GHL) marketing hub solutions to help home service businesses streamline operations, improve lead response times, enhance customer experience, and scale efficiently.",
+      "name": "AI & GHL Automation for Home Service Contractors",
+      "alternateName": "Home Service Marketing Automation",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI & Automation Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "GoHighLevel (GHL) Setup & Optimization" }},
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Chatbot Implementation for Lead Capture & Support" }},
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automated Lead Nurturing Workflows" }},
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automated Review Request Systems" }},
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRM Integration & Sales Pipeline Automation" }}
+        ]
+      }
+    }
+    </script>
+     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "AI-Powered Automations for Home Services - Rize Digital",
+      "url": "https://www.rizedigital.com/services/ai-powered-automations",
+      "description": "Leverage the power of AI and marketing automation with Rize Digital to scale your home service business, improve efficiency, and deliver superior customer experiences.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.rizedigital.com/"
+          },
+           {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.rizedigital.com/services"
+          },
+           {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AI-Powered Automations",
+            "item": "https://www.rizedigital.com/services/ai-powered-automations"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body class="font-open-sans text-dark-text bg-light">
+    <header id="site-header" class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-md transition-all duration-300">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="../../index.html" class="flex items-center">
+                <img src="https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png" alt="Rize Digital Logo" class="h-10 md:h-12">
+            </a>
+            <nav class="hidden lg:flex items-center space-x-6">
+                <a href="../services.html" class="font-montserrat font-semibold text-accent">Services</a>
+                <a href="../portfolio.html" class="font-montserrat font-semibold text-primary hover:text-accent">Case Studies</a>
+                <a href="../about.html" class="font-montserrat font-semibold text-primary hover:text-accent">About</a>
+                <a href="../blog.html" class="font-montserrat font-semibold text-primary hover:text-accent">Blog</a>
+                <a href="../contact.html" class="font-montserrat font-semibold text-primary hover:text-accent">Contact</a>
+            </nav>
+            <a href="../contact.html#contact-form" class="hidden md:block bg-accent hover:bg-accent-dark text-white font-montserrat font-semibold py-2 px-6 rounded-lg transition duration-300">Book Strategy Call</a>
+            <button id="mobile-menu-button" class="lg:hidden text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-lg absolute w-full">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="../services.html" class="font-montserrat font-semibold py-2 border-b text-accent">Services</a>
+                <a href="../portfolio.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Case Studies</a>
+                <a href="../about.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">About</a>
+                <a href="../blog.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Blog</a>
+                <a href="../contact.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Contact</a>
+                <a href="../contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-montserrat font-semibold py-2 px-4 rounded text-center transition duration-300">Book Strategy Call</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero pt-24 lg:pt-32 relative bg-primary text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-30">
+            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Abstract representation of AI and automation gears working together seamlessly." class="object-cover w-full h-full">
+        </div>
+        <div class="container mx-auto px-4 py-16 md:py-24 relative z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-montserrat font-bold leading-tight mb-6">
+                    AI-Powered Automations: Scale Smarter, Not Harder
+                </h1>
+                <p class="text-xl mb-8">
+                    Unlock exponential efficiency and supercharge your customer experience with Rize Digital's AI and GoHighLevel (GHL) automation solutions, tailor-made for ambitious home service businesses.
+                </p>
+                <a href="../contact.html#contact-form" class="inline-block bg-accent hover:bg-accent-dark text-white font-montserrat font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+                    Automate Your Growth Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-montserrat font-bold mb-4 text-dark-text">
+                        Overwhelmed by Manual Tasks & Missed Opportunities?
+                    </h2>
+                    <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                        As your home service business grows, manual processes become bottlenecks. Leads slip through the cracks, follow-up is inconsistent, and valuable time is wasted on repetitive tasks. This inefficiency directly impacts your bottom line and customer satisfaction.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-montserrat font-bold mb-6 text-primary">The Drain of Inefficient Operations:</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                <span>Delayed lead response times, losing customers to faster competitors.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                <span>Inconsistent follow-up, leaving potential revenue untapped.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                <span>Administrative burden on your team, diverting focus from core service delivery.</span>
+                            </li>
+                             <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                <span>Fragmented customer data leading to impersonal experiences and missed upselling opportunities.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Business owner looking stressed with piles of paperwork, symbolizing operational inefficiency." class="rounded-lg shadow-xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-light">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-montserrat font-bold text-center mb-12 text-dark-text">
+                Rize Digital's AI & Automation Blueprint for Peak Performance
+            </h2>
+            <p class="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12">
+               We leverage the power of Artificial Intelligence and robust platforms like GoHighLevel to transform your operations, enabling you to handle more volume, improve customer satisfaction, and scale with unprecedented efficiency.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white rounded-full p-3 mr-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M9 6h6M5 9v6m14-6v6M9 6C7.343 6 6 7.343 6 9v6c0 1.657 1.343 3 3 3h6c1.657 0 3-1.343 3-3V9c0-1.657-1.343-3-3-3H9z" /></svg></div>
+                        <h3 class="text-xl font-montserrat font-semibold text-primary">GoHighLevel (GHL) Marketing Hub Implementation</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">We set up and optimize GHL as your central command center, integrating CRM, marketing automation, communication channels (SMS, email, phone), and sales pipelines into one powerful platform.</p>
+                    <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside">
+                        <li>Unified inbox for all customer communications.</li>
+                        <li>Automated appointment booking and reminders.</li>
+                        <li>Sales pipeline management and lead scoring.</li>
+                        <li>Robust reporting and analytics.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                         <div class="bg-primary text-white rounded-full p-3 mr-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" /></svg></div>
+                        <h3 class="text-xl font-montserrat font-semibold text-primary">AI Chatbots for Instant Lead Engagement</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Never miss a lead again. We deploy intelligent AI chatbots on your website and social media to engage visitors 24/7, qualify leads, answer common questions, and book appointments directly into your calendar.</p>
+                     <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside">
+                        <li>Instantaneous response to inquiries, day or night.</li>
+                        <li>Customizable conversation flows tailored to your services.</li>
+                        <li>Seamless handover to human agents when needed.</li>
+                        <li>Integration with GHL for lead data capture.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                         <div class="bg-primary text-white rounded-full p-3 mr-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg></div>
+                        <h3 class="text-xl font-montserrat font-semibold text-primary">Automated Lead Nurturing Workflows</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Convert more prospects into customers with automated, personalized follow-up sequences. We build sophisticated email and SMS nurturing campaigns that keep your business top-of-mind and guide leads through the sales funnel.</p>
+                     <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside">
+                        <li>Segmented campaigns based on lead source and interest.</li>
+                        <li>Value-driven content delivery to build trust.</li>
+                        <li>Automated reminders for quotes and appointments.</li>
+                        <li>Re-engagement campaigns for cold leads.</li>
+                    </ul>
+                </div>
+                 <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+                    <div class="flex items-center mb-4">
+                         <div class="bg-primary text-white rounded-full p-3 mr-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.539-1.118l1.519-4.674a1 1 0 00-.363-1.118l-3.975-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg></div>
+                        <h3 class="text-xl font-montserrat font-semibold text-primary">Streamlined Review Management & Reputation Building</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Automate review requests to satisfied customers, making it easy for them to share positive feedback on Google, Facebook, and other key platforms. Monitor and manage your online reputation effortlessly.</p>
+                     <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside">
+                        <li>Automated review request triggers post-service.</li>
+                        <li>Direct links to preferred review platforms.</li>
+                        <li>Centralized dashboard for monitoring new reviews.</li>
+                        <li>Templates for responding to reviews quickly.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-montserrat font-bold text-center mb-12">
+                The Impact of Automation: More Leads, Less Work, Happier Customers
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center bg-white/10 p-6 rounded-lg">
+                    <div class="text-accent mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg></div>
+                    <h3 class="text-xl font-montserrat font-semibold mb-2">Increased Lead Conversion</h3>
+                    <p class="text-gray-300">Faster response times and consistent follow-up mean more leads turn into booked jobs, significantly boosting your conversion rates.</p>
+                </div>
+                <div class="text-center bg-white/10 p-6 rounded-lg">
+                     <div class="text-accent mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a3 3 0 00-3-3H4a2 2 0 00-2 2v2a2 2 0 002 2h2a3 3 0 003-3zm10 0v-2a3 3 0 00-3-3h-1a2 2 0 00-2 2v2a2 2 0 002 2h1a3 3 0 003-3zM7 6H5a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V8a2 2 0 00-2-2zm10 0h-2a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V8a2 2 0 00-2-2z" /></svg></div>
+                    <h3 class="text-xl font-montserrat font-semibold mb-2">Enhanced Operational Efficiency</h3>
+                    <p class="text-gray-300">Automate repetitive tasks, freeing up your team to focus on high-value activities like customer service and job execution.</p>
+                </div>
+                <div class="text-center bg-white/10 p-6 rounded-lg">
+                    <div class="text-accent mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div>
+                    <h3 class="text-xl font-montserrat font-semibold mb-2">Superior Customer Experience</h3>
+                    <p class="text-gray-300">Provide instant responses, personalized communication, and timely reminders, leading to higher customer satisfaction and more positive reviews.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-light">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-montserrat font-bold text-center mb-12 text-dark-text">
+                Client Success with Automation: Bomann Fencing
+            </h2>
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <span class="inline-block bg-accent text-white font-montserrat font-bold px-3 py-1 rounded text-sm mb-3">Automation & SEO Impact</span>
+                        <h3 class="text-2xl font-montserrat font-semibold text-primary mb-3">4x Conversion Rate, Regained Client Confidence</h3>
+                        <p class="text-gray-700 mb-4">Bomann Fencing was struggling with poor results from their previous agency. Rize Digital implemented a comprehensive GHL setup, including AI-powered lead response and automated follow-ups, alongside GBP optimization and revamped PPC campaigns.</p>
+                        <ul class="space-y-2 text-gray-700 mb-6">
+                            <li class="flex items-start"><span class="text-accent mr-2 mt-1 font-bold">&#10004;</span><strong>4x increase</strong> in website conversion rate.</li>
+                            <li class="flex items-start"><span class="text-accent mr-2 mt-1 font-bold">&#10004;</span>AI automations significantly reduced lead response time.</li>
+                            <li class="flex items-start"><span class="text-accent mr-2 mt-1 font-bold">&#10004;</span><strong>122% more</strong> Map Pack clicks from GBP optimization.</li>
+                            <li class="flex items-start"><span class="text-accent mr-2 mt-1 font-bold">&#10004;</span>Secured #1 rankings across their primary service area.</li>
+                        </ul>
+                        <a href="../portfolio/bomann-fencing.html" class="font-semibold text-accent hover:underline">Read Full Case Study &rarr;</a>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1505692794406-f2dc4e7f5900?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Mike Bomann, Owner of Bomann Fencing" class="rounded-lg shadow-md mb-4 mx-auto h-64 w-full object-cover">
+                         <blockquote class="italic text-gray-600 mb-2">
+                            "Rize Digital has been different from day one. Their AI automations have reduced our response time to inquiries, and their SEO work has us ranking #1 across our service area."
+                        </blockquote>
+                        <p class="font-montserrat font-semibold text-dark-text">Mike Bomann</p>
+                        <p class="text-sm text-gray-500">Owner, Bomann Fencing</p>
+                        <script type="application/ld+json">
+                        {
+                          "@context": "https://schema.org/",
+                          "@type": "Review",
+                          "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                          "itemReviewed": {"@type": "Service", "name": "AI Automation & SEO Services"},
+                          "author": {"@type": "Person", "name": "Mike Bomann"},
+                          "reviewBody": "Rize Digital has been different from day one. Their AI automations have reduced our response time to inquiries, and their SEO work has us ranking #1 across our service area."
+                        }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-accent text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-montserrat font-bold mb-6">
+                Ready to Automate Your Way to Regional Dominance?
+            </h2>
+            <p class="text-xl max-w-3xl mx-auto mb-8 text-white/90">
+                Stop letting manual processes hold your home service business back. Discover how Rize Digital's AI-powered automations and GHL expertise can help you scale efficiently, improve customer satisfaction, and conquer your market.
+            </p>
+            <a href="../contact.html#contact-form" class="inline-block bg-white hover:bg-gray-100 text-primary font-montserrat font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-lg">
+                Schedule Your Free Automation Strategy Session
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-primary-dark text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png" alt="Rize Digital Logo" class="h-10 mb-4">
+                    <p class="text-sm text-gray-400 mb-4">
+                        Rize Digital: Your full-stack growth partner for home service businesses aiming for regional market dominance.
+                    </p>
+                     <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/rizedigital" target="_blank" rel="noopener" class="text-gray-400 hover:text-accent"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+                        <a href="https://www.linkedin.com/company/rizedigital" target="_blank" rel="noopener" class="text-gray-400 hover:text-accent"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-4.474 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.594-11.018-3.714v-2.155z"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="../about.html" class="text-gray-400 hover:text-accent">About Us</a></li>
+                        <li><a href="../services.html" class="text-gray-400 hover:text-accent">Our Services</a></li>
+                        <li><a href="../portfolio.html" class="text-gray-400 hover:text-accent">Case Studies</a></li>
+                        <li><a href="../blog.html" class="text-gray-400 hover:text-accent">Blog</a></li>
+                        <li><a href="../careers.html" class="text-gray-400 hover:text-accent">Careers</a></li>
+                        <li><a href="../faq.html" class="text-gray-400 hover:text-accent">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Our Solutions</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="search-engine-optimization.html" class="text-gray-400 hover:text-accent">Advanced SEO</a></li>
+                        <li><a href="google-ads-management.html" class="text-gray-400 hover:text-accent">Google Ads Management</a></li>
+                        <li><a href="website-development.html" class="text-gray-400 hover:text-accent">Performance Websites</a></li>
+                        <li><a href="ai-powered-automations.html" class="text-gray-400 hover:text-accent">AI & Automation</a></li>
+                        <li><a href="lead-generation.html" class="text-gray-400 hover:text-accent">Lead Generation Systems</a></li>
+                        <li><a href="email-marketing.html" class="text-gray-400 hover:text-accent">Email Marketing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Get In Touch</h5>
+                     <ul class="space-y-2 text-sm">
+                        <li><a href="../contact.html" class="text-gray-400 hover:text-accent">Contact Us</a></li>
+                        <li><a href="../contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-bold py-2 px-4 rounded-md inline-block text-center">Book Strategy Call</a></li>
+                        <li class="text-gray-400">Phone: <a href="tel:+12345678900" class="hover:text-accent">(234) 567-8900</a></li>
+                        <li class="text-gray-400">Email: <a href="mailto:info@rizedigital.com" class="hover:text-accent">info@rizedigital.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 mt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2024 Rize Digital. All rights reserved. </p>
+                 <p>
+                    <a href="../privacy-policy.html" class="hover:text-accent">Privacy Policy</a> | 
+                    <a href="../terms-of-service.html" class="hover:text-accent">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/navigation.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+</html>
+
+
+

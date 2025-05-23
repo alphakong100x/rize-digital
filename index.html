@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rize Digital - Full-Stack Growth Partner for Home Services</title>
+    <meta name="description" content="Rize Digital is your exclusive digital growth partner for contractors and home service businesses seeking market leadership through innovative, results-driven marketing strategies.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#003366',
+                        'primary-dark': '#002244',
+                        secondary: '#4A90E2',
+                        accent: '#4CAF50',
+                        'accent-dark': '#388E3C',
+                        light: '#F5F5F5',
+                        dark: '#333333',
+                        'dark-text': '#333333'
+                    },
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                        'open-sans': ['"Open Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="canonical" href="https://www.rizedigital.com/">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#003366">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Rize Digital",
+      "url": "https://www.rizedigital.com",
+      "logo": "https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png",
+      "description": "Rize Digital is the full-stack growth partner for home-service companies seeking regional dominance across multi-state territories. We specialize in SEO, PPC, website development, and AI automation.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-234-567-8900",
+        "contactType": "Sales & Customer Service",
+        "email": "info@rizedigital.com"
+      },
+      "sameAs": [
+        "https://www.facebook.com/rizedigital",
+        "https://www.linkedin.com/company/rizedigital"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Rize Digital",
+      "url": "https://www.rizedigital.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.rizedigital.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDW4FQFPSB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TDW4FQFPSB');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NPK3V7VW');</script>
+</head>
+<body class="font-open-sans text-dark-text bg-light">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPK3V7VW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <header id="site-header" class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-md transition-all duration-300">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png" alt="Rize Digital Logo" class="h-10 md:h-12">
+            </a>
+            <nav class="hidden lg:flex items-center space-x-6">
+                <a href="pages/services.html" class="font-montserrat font-semibold text-primary hover:text-accent">Services</a>
+                <a href="pages/portfolio.html" class="font-montserrat font-semibold text-primary hover:text-accent">Case Studies</a>
+                <a href="pages/about.html" class="font-montserrat font-semibold text-primary hover:text-accent">About</a>
+                <a href="pages/blog.html" class="font-montserrat font-semibold text-primary hover:text-accent">Blog</a>
+                <a href="pages/contact.html" class="font-montserrat font-semibold text-primary hover:text-accent">Contact</a>
+            </nav>
+            <a href="pages/contact.html#contact-form" class="hidden md:block bg-accent hover:bg-accent-dark text-white font-montserrat font-semibold py-2 px-6 rounded-lg transition duration-300">Book Strategy Call</a>
+            <button id="mobile-menu-button" class="lg:hidden text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-lg absolute w-full">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="pages/services.html" class="font-montserrat font-semibold py-2 border-b text-accent">Services</a>
+                <a href="pages/portfolio.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Case Studies</a>
+                <a href="pages/about.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">About</a>
+                <a href="pages/blog.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Blog</a>
+                <a href="pages/contact.html" class="font-montserrat font-semibold py-2 border-b text-accent">Contact</a>
+                <a href="pages/contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-montserrat font-semibold py-2 px-4 rounded text-center transition duration-300">Book Strategy Call</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero pt-32 lg:pt-40 pb-16 lg:pb-24 relative bg-primary text-white overflow-hidden min-h-[calc(100vh-80px)] flex items-center">
+            <div class="absolute inset-0 opacity-20">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80" alt="Hero Background Image" class="object-cover w-full h-full">
+            </div>
+            <div class="container mx-auto px-4 relative z-10 text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-montserrat font-bold leading-tight mb-6">
+                    Your Exclusive Partner for Digital Market Leadership
+                </h1>
+                <p class="text-xl lg:text-2xl mb-8 max-w-3xl mx-auto">
+                    We help ambitious contractors and home service businesses achieve regional dominance through innovative, results-driven marketing strategies.
+                </p>
+                <a href="pages/contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-montserrat font-bold py-3 px-10 rounded-lg text-lg transition duration-300 transform hover:scale-105">
+                    Schedule Your Strategic Consultation
+                </a>
+            </div>
+        </section>
+
+        <!-- Value Proposition Section -->
+        <section class="py-16 lg:py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl lg:text-4xl font-montserrat font-bold text-primary text-center mb-12">The Rize Digital Difference</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="card p-6">
+                        <h3 class="text-xl font-montserrat font-bold text-primary mb-4">Exclusive Partnership</h3>
+                        <p class="text-gray-700">One client per industry, per service area. Your success is our sole focus, eliminating conflicts of interest.</p>
+                    </div>
+                    <div class="card p-6">
+                        <h3 class="text-xl font-montserrat font-bold text-primary mb-4">Aligned Incentives</h3>
+                        <p class="text-gray-700">Our success is tied to your growth through transparent KPIs and performance-based incentives.</p>
+                    </div>
+                    <div class="card p-6">
+                        <h3 class="text-xl font-montserrat font-bold text-primary mb-4">Full-Stack Growth</h3>
+                        <p class="text-gray-700">Comprehensive digital strategy and execution, from SEO to AI automation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Study Highlight -->
+        <section class="py-16 lg:py-24 bg-neutral-color">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl lg:text-4xl font-montserrat font-bold text-primary text-center mb-12">Proven Results</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="case-study-card bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-montserrat font-bold text-primary mb-4">Johnson City Fence Company</h3>
+                        <p class="text-gray-700 mb-6">Within just six months of implementing our targeted regional campaign, we delivered:</p>
+                        <ul class="space-y-4 mb-6">
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                12-20 qualified leads per month
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                Significant revenue growth
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                ROI exceeding monthly investment
+                            </li>
+                        </ul>
+                        <a href="pages/portfolio/johnson-city-fence.html" class="btn btn-secondary">View Full Case Study</a>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-2xl font-montserrat font-bold text-primary">Why It Works</h3>
+                        <p class="text-gray-700">Our partnership model eliminates the flaws of traditional pay-per-lead systems. Instead of chasing volume, we focus on delivering quality leads that convert into profitable projects.</p>
+                        <p class="text-gray-700">Through exclusive partnerships and aligned incentives, we create a foundation for sustainable growth and market leadership.</p>
+                        <a href="pages/contact.html#contact-form" class="btn btn-primary">Discuss Your Growth Strategy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview -->
+        <section class="py-16 lg:py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl lg:text-4xl font-montserrat font-bold text-primary text-center mb-12">Comprehensive Growth Solutions</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="service-card">
+                        <h3 class="text-xl font-montserrat font-bold text-primary mb-4">Advanced SEO</h3>
+                        <p class="text-gray-700 mb-4">Dominate local search results and capture high-intent traffic.</p>
+                        <a href="pages/services/search-engine-optimization.html" class="text-accent font-semibold hover:text-accent-dark">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="text-xl font-montserrat font-bold text-primary mb-4">Google Ads Management</h3>
+                        <p class="text-gray-700 mb-4">Strategic PPC campaigns that deliver qualified leads consistently.</p>
+                        <a href="pages/services/google-ads-management.html" class="text-accent font-semibold hover:text-accent-dark">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="text-xl font-montserrat font-bold text-primary mb-4">Website Development</h3>
+                        <p class="text-gray-700 mb-4">High-performance websites built for conversion and growth.</p>
+                        <a href="pages/services/website-development.html" class="text-accent font-semibold hover:text-accent-dark">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 lg:py-24 bg-primary text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl lg:text-4xl font-montserrat font-bold mb-6">Ready to Dominate Your Market?</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">Schedule a strategic consultation to discuss how we can help you achieve market leadership in your region.</p>
+                <a href="pages/contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-montserrat font-bold py-3 px-10 rounded-lg text-lg transition duration-300 inline-block">
+                    Book Your Strategy Call
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary-dark text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png" alt="Rize Digital Logo" class="h-10 mb-4">
+                    <p class="text-sm text-gray-400 mb-4">
+                        Your full-stack growth partner for achieving regional market dominance in the home service industry.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/rizedigital" target="_blank" rel="noopener" class="text-gray-400 hover:text-accent">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/rizedigital" target="_blank" rel="noopener" class="text-gray-400 hover:text-accent">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-4.474 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.594-11.018-3.714v-2.155z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="pages/about.html" class="text-gray-400 hover:text-accent">About Us</a></li>
+                        <li><a href="pages/services.html" class="text-gray-400 hover:text-accent">Our Services</a></li>
+                        <li><a href="pages/portfolio.html" class="text-gray-400 hover:text-accent">Case Studies</a></li>
+                        <li><a href="pages/blog.html" class="text-gray-400 hover:text-accent">Blog</a></li>
+                        <li><a href="pages/careers.html" class="text-gray-400 hover:text-accent">Careers</a></li>
+                        <li><a href="pages/faq.html" class="text-gray-400 hover:text-accent">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Our Solutions</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="pages/services/search-engine-optimization.html" class="text-gray-400 hover:text-accent">Advanced SEO</a></li>
+                        <li><a href="pages/services/google-ads-management.html" class="text-gray-400 hover:text-accent">Google Ads Management</a></li>
+                        <li><a href="pages/services/website-development.html" class="text-gray-400 hover:text-accent">Performance Websites</a></li>
+                        <li><a href="pages/services/ai-powered-automations.html" class="text-gray-400 hover:text-accent">AI & Automation</a></li>
+                        <li><a href="pages/services/lead-generation.html" class="text-gray-400 hover:text-accent">Lead Generation Systems</a></li>
+                        <li><a href="pages/services/email-marketing.html" class="text-gray-400 hover:text-accent">Email Marketing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Get In Touch</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="pages/contact.html" class="text-gray-400 hover:text-accent">Contact Us</a></li>
+                        <li><a href="pages/contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-bold py-2 px-4 rounded-md inline-block text-center">Book Strategy Call</a></li>
+                        <li class="text-gray-400">Phone: <a href="tel:+12345678900" class="hover:text-accent">(234) 567-8900</a></li>
+                        <li class="text-gray-400">Email: <a href="mailto:info@rizedigital.com" class="hover:text-accent">info@rizedigital.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 mt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2024 Rize Digital. All rights reserved.</p>
+                <p>
+                    <a href="pages/privacy-policy.html" class="hover:text-accent">Privacy Policy</a> |
+                    <a href="pages/terms-of-service.html" class="hover:text-accent">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/analytics.js" defer></script>
+</body>
+</html>

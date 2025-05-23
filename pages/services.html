@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Full-Stack Growth for Home Service Businesses | Rize Digital</title>
+    <meta name="description" content="Explore Rize Digital's comprehensive suite of marketing services: SEO, Google Ads, Website Development, AI Automation, Lead Generation & Email Marketing for home service regional dominance.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#003366', 
+                        'primary-dark': '#002244',
+                        secondary: '#4A90E2', 
+                        accent: '#4CAF50', 
+                        'accent-dark': '#388E3C', 
+                        light: '#F5F5F5', 
+                        dark: '#333333',
+                        'dark-text': '#333333' 
+                    },
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'], 
+                        'open-sans': ['"Open Sans"', 'sans-serif'] 
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Rize Digital Services - Full-Stack Home Service Marketing",
+      "url": "https://www.rizedigital.com/services",
+      "description": "Discover Rize Digital's integrated marketing services designed to help home service companies achieve regional dominance, including SEO, PPC, Web Development, AI, and more.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.rizedigital.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.rizedigital.com/services"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Rize Digital Marketing Services",
+        "description": "Core marketing services offered by Rize Digital for home service businesses.",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "item": {"@type": "Service", "name": "Advanced SEO & Content Architecture", "url": "https://www.rizedigital.com/services/search-engine-optimization"}},
+          {"@type": "ListItem", "position": 2, "item": {"@type": "Service", "name": "Performance-Focused Website Development", "url": "https://www.rizedigital.com/services/website-development"}},
+          {"@type": "ListItem", "position": 3, "item": {"@type": "Service", "name": "Google Ads Management", "url": "https://www.rizedigital.com/services/google-ads-management"}},
+          {"@type": "ListItem", "position": 4, "item": {"@type": "Service", "name": "AI-Powered Automations", "url": "https://www.rizedigital.com/services/ai-powered-automations"}},
+          {"@type": "ListItem", "position": 5, "item": {"@type": "Service", "name": "Strategic Lead Generation", "url": "https://www.rizedigital.com/services/lead-generation"}},
+          {"@type": "ListItem", "position": 6, "item": {"@type": "Service", "name": "Email Marketing & List Building", "url": "https://www.rizedigital.com/services/email-marketing"}}
+        ]
+      }
+    }
+    </script>
+</head>
+<body class="font-open-sans text-dark-text bg-light">
+    <header id="site-header" class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-md transition-all duration-300">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="../index.html" class="flex items-center">
+                <img src="https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png" alt="Rize Digital Logo" class="h-10 md:h-12">
+            </a>
+            <nav class="hidden lg:flex items-center space-x-6">
+                <a href="services.html" class="font-montserrat font-semibold text-accent">Services</a>
+                <a href="portfolio.html" class="font-montserrat font-semibold text-primary hover:text-accent">Case Studies</a>
+                <a href="about.html" class="font-montserrat font-semibold text-primary hover:text-accent">About</a>
+                <a href="blog.html" class="font-montserrat font-semibold text-primary hover:text-accent">Blog</a>
+                <a href="contact.html" class="font-montserrat font-semibold text-primary hover:text-accent">Contact</a>
+            </nav>
+            <a href="contact.html#contact-form" class="hidden md:block bg-accent hover:bg-accent-dark text-white font-montserrat font-semibold py-2 px-6 rounded-lg transition duration-300">Book Strategy Call</a>
+            <button id="mobile-menu-button" class="lg:hidden text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-lg absolute w-full">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="services.html" class="font-montserrat font-semibold py-2 border-b text-accent">Services</a>
+                <a href="portfolio.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Case Studies</a>
+                <a href="about.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">About</a>
+                <a href="blog.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Blog</a>
+                <a href="contact.html" class="font-montserrat font-semibold py-2 border-b hover:text-accent">Contact</a>
+                <a href="contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-montserrat font-semibold py-2 px-4 rounded text-center transition duration-300">Book Strategy Call</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero pt-24 lg:pt-32 relative bg-primary text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-30">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Team strategizing on a whiteboard, representing Rize Digital's full-stack solutions." class="object-cover w-full h-full">
+        </div>
+        <div class="container mx-auto px-4 py-16 md:py-24 relative z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-montserrat font-bold leading-tight mb-6">
+                    Full-Stack Digital Solutions: Engineered for Home Service Dominance
+                </h1>
+                <p class="text-xl mb-8">
+                    Achieving regional leadership requires more than isolated tactics. Rize Digital provides a comprehensive suite of integrated marketing services, meticulously designed to build a powerful, predictable growth engine for your home service business.
+                </p>
+                <a href="contact.html#contact-form" class="inline-block bg-accent hover:bg-accent-dark text-white font-montserrat font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+                    Strategize Your Growth Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-montserrat font-bold mb-4 text-dark-text">
+                    One Partner. Total Regional Dominance.
+                </h2>
+                <p class="text-lg text-gray-700">
+                    Stop juggling multiple agencies and fragmented strategies. Our integrated approach ensures every component of your digital marketing works in concert, amplifying results and maximizing your ROI. From attracting initial awareness to converting leads and fostering loyalty, we provide the end-to-end solutions you need to conquer your market.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1: SEO -->
+                <div class="service-card-detailed bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow flex flex-col">
+                    <div class="text-primary mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg></div>
+                    <h3 class="text-2xl font-bold font-heading text-primary mb-3">Advanced SEO & Content Architecture</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">Dominate local and regional search results. We build multi-site SEO frameworks, optimize for technical excellence (Core Web Vitals), and create AI-informed content that establishes your authority and drives organic leads.</p>
+                    <a href="services/search-engine-optimization.html" class="mt-auto text-accent font-semibold hover:underline self-start">Explore SEO Services &rarr;</a>
+                </div>
+
+                <!-- Service Card 2: Website Development -->
+                <div class="service-card-detailed bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow flex flex-col">
+                     <div class="text-primary mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg></div>
+                    <h3 class="text-2xl font-bold font-heading text-primary mb-3">Performance-Focused Website Development</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">Your website is your digital sales engine. We build ultra-fast, high-converting websites on WordPress (Oxygen/ACF) or GoHighLevel, meticulously optimized for speed, user experience, and maximum lead capture.</p>
+                    <a href="services/website-development.html" class="mt-auto text-accent font-semibold hover:underline self-start">Discover Website Solutions &rarr;</a>
+                </div>
+
+                <!-- Service Card 3: Google Ads -->
+                <div class="service-card-detailed bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow flex flex-col">
+                     <div class="text-primary mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" /></svg></div>
+                    <h3 class="text-2xl font-bold font-heading text-primary mb-3">Google Ads Management</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">Generate immediate, qualified leads with our "Jump-Start & Redeploy" PPC strategy. We build precision-targeted campaigns, optimize for lowest CPL, and ensure scalable growth through paid advertising.</p>
+                     <a href="services/google-ads-management.html" class="mt-auto text-accent font-semibold hover:underline self-start">Master Paid Advertising &rarr;</a>
+                </div>
+
+                <!-- Service Card 4: AI Automation -->
+                <div class="service-card-detailed bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow flex flex-col">
+                     <div class="text-primary mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg></div>
+                    <h3 class="text-2xl font-bold font-heading text-primary mb-3">AI-Powered Automations</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">Streamline your operations and enhance customer engagement. We implement GHL marketing hub solutions, AI chatbots for instant response, and automated workflows to improve efficiency and nurture leads 24/7.</p>
+                     <a href="services/ai-powered-automations.html" class="mt-auto text-accent font-semibold hover:underline self-start">Automate & Scale &rarr;</a>
+                </div>
+
+                <!-- Service Card 5: Lead Generation -->
+                <div class="service-card-detailed bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow flex flex-col">
+                     <div class="text-primary mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12h2m-2 0a6 6 0 11-12 0 6 6 0 0112 0zm-2 0c0-.984-.251-1.94-.724-2.776l-.08-.133A9.95 9.95 0 0112 3a9.95 9.95 0 01-3.196 6.091l-.08.133C6.251 10.06 6 11.016 6 12c0 .984.251 1.94.724 2.776l.08.133A9.95 9.95 0 0112 21a9.95 9.95 0 013.196-6.091l.08-.133C15.749 13.984 16 13.02 16 12zm-2 0a2 2 0 10-4 0 2 2 0 004 0z"/></svg></div>
+                    <h3 class="text-2xl font-bold font-heading text-primary mb-3">Strategic Lead Generation Systems</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">Move beyond sporadic inquiries to a predictable flow of qualified prospects. We design and implement multi-channel lead generation systems tailored to your ideal customer profile, effectively locking out competitors.</p>
+                     <a href="services/lead-generation.html" class="mt-auto text-accent font-semibold hover:underline self-start">Get Predictable Leads &rarr;</a>
+                </div>
+                
+                <!-- Service Card 6: Email Marketing -->
+                <div class="service-card-detailed bg-light p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow flex flex-col">
+                      <div class="text-primary mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-1 13A2 2 0 0118 21H6a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v12z" /></svg></div>
+                    <h3 class="text-2xl font-bold font-heading text-primary mb-3">Email Marketing & List Building</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">Maximize customer lifetime value and nurture prospects effectively. We leverage segmented campaigns, strategic data sourcing, and automated follow-up sequences to convert leads and drive repeat business.</p>
+                     <a href="services/email-marketing.html" class="mt-auto text-accent font-semibold hover:underline self-start">Boost Email ROI &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-montserrat font-bold mb-6">
+                    The Rize Digital Advantage: Your Success, Amplified.
+                </h2>
+                <p class="text-xl mb-8">
+                    Our exclusive partnership model ensures we're 100% invested in your dominance. We combine deep industry expertise with cutting-edge technology and a relentless pursuit of results. When you partner with Rize, you're not just getting services; you're getting a dedicated growth engine.
+                </p>
+                <a href="about.html#exclusive-partnership" class="inline-block bg-accent hover:bg-accent-dark text-white font-montserrat font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+                    Learn About Our Exclusive Focus
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 lg:py-24 bg-light">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-montserrat font-bold mb-6 text-dark-text">
+                Ready to Elevate Your Home Service Business?
+            </h2>
+            <p class="text-xl max-w-3xl mx-auto mb-8 text-gray-700">
+                Stop settling for average. It's time to claim your market. Schedule a complimentary, no-obligation strategy call with our experts to discuss how Rize Digital can tailor a full-stack solution for your regional dominance.
+            </p>
+            <a href="contact.html#contact-form" class="inline-block bg-accent hover:bg-accent-dark text-white font-montserrat font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-lg">
+                Book Your Free Growth Strategy Call
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-primary-dark text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="https://r2.flowith.net/files/d62dfe38-9ad8-48c7-b1df-c1d8f8349c47/1747747060553-Rize_Square_logo@500x500.png" alt="Rize Digital Logo" class="h-10 mb-4">
+                    <p class="text-sm text-gray-400 mb-4">
+                        Rize Digital: Your full-stack growth partner for home service businesses aiming for regional market dominance.
+                    </p>
+                     <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/rizedigital" target="_blank" rel="noopener" class="text-gray-400 hover:text-accent"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+                        <a href="https://www.linkedin.com/company/rizedigital" target="_blank" rel="noopener" class="text-gray-400 hover:text-accent"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-4.474 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.594-11.018-3.714v-2.155z"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="about.html" class="text-gray-400 hover:text-accent">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-accent">Our Services</a></li>
+                        <li><a href="portfolio.html" class="text-gray-400 hover:text-accent">Case Studies</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-accent">Blog</a></li>
+                        <li><a href="careers.html" class="text-gray-400 hover:text-accent">Careers</a></li>
+                        <li><a href="faq.html" class="text-gray-400 hover:text-accent">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Our Solutions</h5>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="services/search-engine-optimization.html" class="text-gray-400 hover:text-accent">Advanced SEO</a></li>
+                        <li><a href="services/google-ads-management.html" class="text-gray-400 hover:text-accent">Google Ads Management</a></li>
+                        <li><a href="services/website-development.html" class="text-gray-400 hover:text-accent">Performance Websites</a></li>
+                        <li><a href="services/ai-powered-automations.html" class="text-gray-400 hover:text-accent">AI & Automation</a></li>
+                        <li><a href="services/lead-generation.html" class="text-gray-400 hover:text-accent">Lead Generation Systems</a></li>
+                        <li><a href="services/email-marketing.html" class="text-gray-400 hover:text-accent">Email Marketing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-heading font-semibold text-lg mb-4">Get In Touch</h5>
+                     <ul class="space-y-2 text-sm">
+                        <li><a href="contact.html" class="text-gray-400 hover:text-accent">Contact Us</a></li>
+                        <li><a href="contact.html#contact-form" class="bg-accent hover:bg-accent-dark text-white font-bold py-2 px-4 rounded-md inline-block text-center">Book Strategy Call</a></li>
+                        <li class="text-gray-400">Phone: <a href="tel:+12345678900" class="hover:text-accent">(234) 567-8900</a></li>
+                        <li class="text-gray-400">Email: <a href="mailto:info@rizedigital.com" class="hover:text-accent">info@rizedigital.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 mt-8 text-center text-sm text-gray-500">
+                <p>&copy; 2024 Rize Digital. All rights reserved. </p>
+                 <p>
+                    <a href="privacy-policy.html" class="hover:text-accent">Privacy Policy</a> | 
+                    <a href="terms-of-service.html" class="hover:text-accent">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+
+
