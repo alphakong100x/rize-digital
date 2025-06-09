@@ -36,4 +36,12 @@
   .nav-link {
     @apply text-gray-700 hover:text-primary transition-colors duration-300;
   }
+
+  .fade-up {
+    @apply opacity-0 translate-y-8 transition-all duration-700;
+  }
+
+  .fade-up.active {
+    @apply opacity-100 translate-y-0;
+  }
 }

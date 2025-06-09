@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="assets/images/rize_bars.png">
     <link rel="apple-touch-icon" href="assets/images/Rize Bars (128 x 128 px).jpg">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header id="site-header" class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-200">
@@ -57,19 +54,54 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero">
-            <div class="container mx-auto relative z-10">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <section class="hero min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white pt-20">
+            <div class="container mx-auto relative z-10 h-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen">
                     <div class="text-center lg:text-left">
-                        <h1 class="mb-6 fade-up">Dominate Your Market with Digital Excellence</h1>
-                        <p class="text-xl mb-8 fade-up">We help ambitious contractors and home service businesses achieve regional dominance through innovative, results-driven marketing strategies.</p>
+                        <p class="text-xl mb-4 fade-up">Dominate Your Market with Digital Excellence</p>
+                        <h1 class="text-5xl lg:text-6xl font-bold mb-6 fade-up">
+                            Regional<br>
+                            Dominance in<br>
+                            <span class="text-purple-400">12 months</span>
+                        </h1>
+                        <h2 class="text-2xl lg:text-3xl font-semibold mb-8 fade-up">
+                            A COMPLETE PACKAGE FOR<br>
+                            <span class="text-green-400">SUCCESS</span>
+                        </h2>
+                        <p class="text-lg mb-8 fade-up opacity-90">We help ambitious contractors and home service businesses achieve regional dominance through innovative, results-driven marketing strategies.</p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start fade-up">
                             <a href="#contact-form" class="btn btn-primary">Schedule Strategy Call</a>
-                            <a href="#services" class="btn btn-secondary">Explore Services</a>
+                            <a href="#services" class="btn btn-secondary bg-transparent border-white text-white hover:bg-white hover:text-purple-900">Explore Services</a>
                         </div>
                     </div>
-                    <div class="hidden lg:block">
-                        <img src="assets/images/Homepage Info Graphic.jpg" alt="Digital Marketing Strategy" class="w-full rounded-lg shadow-2xl fade-up">
+                    <div class="fade-up">
+                        <div class="grid grid-cols-1 gap-6">
+                            <!-- Brand Building Card -->
+                            <div class="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
+                                        <img src="assets/images/rize_bars.png" alt="Brand" class="w-8 h-8">
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-blue-400">BRAND BUILDING</h3>
+                                        <p class="text-sm opacity-80">Become a household name in your region. Dominate google & the competition.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- PPC Advertising Card -->
+                            <div class="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
+                                        <img src="assets/images/rize_bars.png" alt="PPC" class="w-8 h-8">
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-orange-400">PPC ADVERTISING</h3>
+                                        <p class="text-sm opacity-80">Google Ads campaigns effectively target specific audiences and drive traffic to your site.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -278,5 +310,12 @@
 
         fadeUps.forEach(element => observer.observe(element));
     </script>
+    
+    <!-- Utility scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/analytics.js"></script>
+    
+    <!-- Main scripts -->
+    <script src="js/main.js"></script>
 </body>
 </html>
