@@ -1,0 +1,16 @@
+{
+  "css.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "css": "css"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "emmet.includeLanguages": {
+    "tailwindcss": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
