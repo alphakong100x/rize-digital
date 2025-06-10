@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Disallow: /dev/
-Disallow: /wp-admin/ # Common practice, good to include
-Allow: /
-
-Sitemap: https://www.rizedigital.com/sitemap.xml
